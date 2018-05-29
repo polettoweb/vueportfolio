@@ -1,0 +1,78 @@
+body {
+    //background-color: $tertiary-color;
+}
+
+#app {
+    font-family: $family-primary;
+}
+
+#logo {
+    height: 50px;
+    width: auto;
+    margin: 5px;
+    padding-right:50px;
+    &:hover {
+        animation: logo 3s infinite;
+    }
+}
+
+.text__logo {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    position: fixed;
+    a {
+        width: 50px;
+        height: 50px;
+        line-height: 40px;
+        margin: 0 auto;
+        display: block;
+        font-family: 'Oswald', sans-serif;
+        font-size: 40px;
+        color: $text-color;
+        text-decoration: none;
+    }
+    a:hover {
+        border-radius: 100%;
+        background-color: $primary-color;
+        color: white;
+    }
+}
+.nav {
+  width: 100%;
+  height: 60px;
+  position: fixed;
+  z-index: 2;
+  top:0;
+  left: 0;
+  background: transparent;
+  &.sticky {
+    background: rgba($text-color,.7);
+  }
+}
+.nav__content {
+    position: relative;
+  width: 100%;
+  height: 60px;
+  background-color: transparent;
+  @include flexBasic(flex-end, row, nowrap);
+  .logo--scroll {
+      visibility: hidden;
+        position: fixed;
+        top: 0;
+        left: 50%;
+        transform: translate3d(-50%,0,0);
+      width: 100px;
+      height: 60px;
+      @include flexBasic(center, row, nowrap);
+      &.scrolled--logo {
+          visibility: visible;
+      }
+      svg {
+          height: 30px; 
+          fill: $secondary-color;
+          stroke: black;
+          margin: 15px 2px;
+      }
+  }
+}
