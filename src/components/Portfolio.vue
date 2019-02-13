@@ -59,24 +59,6 @@
     </scroll-item>
     <scroll-item>
     <div class="portfolio__box" :class="state">
-      <div class="portfolio__img"><a href="http://www.brandymelvilleusa.com" title="Brandy Melville USA" target="_blank"><img src="../assets/img/bmusa-portfolio.jpg" alt="Brandy Melville USA" /></a></div>
-      <div class="portfolio__links">
-        <p class="portfolio__links-text">Magento Enterprise eCommerce Website built for the USA branch of BrandyMelville. An High street fashion brand</p>
-      </div>
-      <div class="portfolio__tags">
-        <a target="_self" href="#"><i class="fa fa-tag"></i>Graphic Design</a>
-        <a target="_self" href="#"><i class="fa fa-tag"></i>Development</a>
-        <a target="_self" href="#"><i class="fa fa-tag"></i>Magento</a>
-        <a target="_self" href="#"><i class="fa fa-tag"></i>Sass</a>
-        <a target="_self" href="#"><i class="fa fa-tag"></i>jQuery</a>
-        <a target="_self" href="#"><i class="fa fa-tag"></i>Ajax</a>
-        <a target="_self" href="#"><i class="fa fa-tag"></i>JSON</a>
-        <a target="_self" href="#"><i class="fa fa-tag"></i>RestAPI</a>
-      </div>
-    </div>
-    </scroll-item>
-    <scroll-item>
-    <div class="portfolio__box" :class="state">
       <div class="portfolio__img"><a href="http://www.stoves.co.uk" title="Stoves UK" target="_blank"><img src="../assets/img/stoves-portfolio.jpg" alt="Stoves.co.uk" /></a></div>
       <div class="portfolio__links">
         <p class="portfolio__links-text">Responsive website made on top of Umbraco cms.</p>
@@ -106,24 +88,6 @@
         <a target="_self" href="#"><i class="fa fa-tag"></i>PHP</a>
         <a target="_self" href="#"><i class="fa fa-tag"></i>CSS3</a>
         <a target="_self" href="#"><i class="fa fa-tag"></i>jQuery</a>
-      </div>
-    </div>
-    </scroll-item>
-    <scroll-item>
-    <div class="portfolio__box" :class="state">
-      <div class="portfolio__img"><a href="http://www.brandymelville.co.uk" title="Brandy Melville UK" target="_blank"><img src="../assets/img/bmuk-portfolio.jpg" alt="Brandy Melville UK" /></a></div>
-      <div class="portfolio__links">
-        <p class="portfolio__links-text">Magento Enterprise eCommerce Website built for the UK branch of BrandyMelville. An High street fashion brand</p>
-      </div>
-      <div class="portfolio__tags">
-        <a target="_self" href="#"><i class="fa fa-tag"></i>Graphic Design</a>
-        <a target="_self" href="#"><i class="fa fa-tag"></i>Development</a>
-        <a target="_self" href="#"><i class="fa fa-tag"></i>Magento</a>
-        <a target="_self" href="#"><i class="fa fa-tag"></i>Sass</a>
-        <a target="_self" href="#"><i class="fa fa-tag"></i>jQuery</a>
-        <a target="_self" href="#"><i class="fa fa-tag"></i>Ajax</a>
-        <a target="_self" href="#"><i class="fa fa-tag"></i>JSON</a>
-        <a target="_self" href="#"><i class="fa fa-tag"></i>RestAPI</a>
       </div>
     </div>
     </scroll-item>

@@ -110,11 +110,6 @@ export default {
           image : `${require('../assets/img/tankard.jpg')}`
         },
         {
-          link: 'http://www.brandymelvilleusa.com',
-          p: 'Brandy Melville USA',
-          image : `${require('../assets/img/bmusa.jpg')}`
-        },
-        {
           link: 'http://www.stoves.co.uk',
           p: 'Stoves UK',
           image : `${require('../assets/img/stoves.jpg')}`
